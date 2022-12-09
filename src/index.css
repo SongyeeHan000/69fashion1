@@ -38,3 +38,7 @@ code {
 #logo {
   width: 64px;
 }
+
+#map {
+  height: 180px;
+}
