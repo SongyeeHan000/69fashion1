@@ -34,3 +34,11 @@ code {
 #description li {
   text-align: initial;
 }
+
+#logo {
+  width: 64px;
+}
+
+#map {
+  height: 180px;
+}
