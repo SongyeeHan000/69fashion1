@@ -14,7 +14,7 @@ export default function About() {
                 <p id='description'> 
                     Find your special dress today at 6&9 Fashion Inc!
                     <br></br>
-                    We have been in business for more than 15 years. We have dresses for all occasions; Weddings. Quinceanera, Sweet 16, Prom, Pageant, Cocktail, Evening dresses.
+                    We have been in business since 2003. We have dresses for all occasions; Weddings. Quinceanera, Sweet 16, Prom, Pageant, Cocktail, Evening dresses.
                     {/* list some companies we sell */}
                     {/* link to FAQ and Contact */}
                     <br></br>
