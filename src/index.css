@@ -40,3 +40,23 @@ body {
 #map {
   height: 180px;
 }
+
+/* NAVBAR */
+
+.navbarTabs {
+  font-family: 'Alike', serif;
+  color: #EDF2F4;
+  text-decoration: none;
+  font-size: 20px
+}
+
+#navBarTitle {
+  text-align: "center";
+  padding: 1rem;
+  margin-bottom: 0px;
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  font-weight: 500;
+  font-family: 'Alike', serif;
+
+}
