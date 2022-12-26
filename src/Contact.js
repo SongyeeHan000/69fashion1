@@ -6,12 +6,14 @@ import { Marker, Popup } from "react-leaflet"
 export default function Contact() {
 
   return (
-    <div style={{marginTop:'2rem'}}>
+    <div className="font-link" style={{marginTop:'2rem'}}>
       <h1 style={{textAlign:'center'}}>Contact Us</h1>
       <div style={{textAlign:'center', margin:'2rem'}}>
         {/* Add a link to a email form */}
-        <p>If there are any other questions, please either call us or send us a message here!</p>
-        <p>Other than that, Come visit us! Looking forward to see you!</p>
+        <p>If there are any other questions, please either call us or send us a message here! 
+          <br />
+          Other than that, Come visit us! Looking forward to see you!
+        </p>
       </div>
 
       <div className="contactContent" style={{display:'flex', justifyContent:'center'}}>
