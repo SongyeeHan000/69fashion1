@@ -39,6 +39,7 @@ body {
   text-align: center;
   font-family: 'Alike', serif;
   margin-top: 2rem;
+  font-weight: bolder;
 
 }
 
@@ -68,3 +69,6 @@ body {
   margin: 0rem 5rem;
 }
 
+.contactContent h5 {
+  font-weight: bolder;
+}
