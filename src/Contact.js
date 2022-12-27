@@ -7,7 +7,7 @@ export default function Contact() {
 
   return (
     <div className="font-link" style={{marginTop:'2rem', height:"100%"}}>
-      <h1 style={{textAlign:'center'}}>Contact Us</h1>
+      <h1 className="contentTitle">Contact Us</h1>
       <div style={{textAlign:'center', margin:'1rem'}}>
         {/* Add a link to a email form */}
         <p>If there are any other questions, please either call us or send us a message here! 
