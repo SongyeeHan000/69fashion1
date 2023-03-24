@@ -31,9 +31,9 @@ export default function Home() {
     //     </div>
     //   </div>
 
-      <div id="container" style={{position:'relative'}}>
-          <img src='promdress.png' alt="backgroundpic" style={{position:'absolute', top:0, left: '50%', transform: 'translateX(-50%)' }}></img>
-          <h1 style={{position:'absolute', top:0, left:'30%', transform: 'translateY(350%)' }}>Moto.</h1>
+      <div id="homepage" style={{position:'relative'}}>
+          <img src='69Logo.png' alt="backgroundpic" style={{display:'flex'}}></img>
+          <h1 style={{position:'absolute', bottom: '5%', fontSize: 'medium', }}>Step into the spotlight with our dazzling selection of dresses!</h1>
       </div>
      
     // </div>

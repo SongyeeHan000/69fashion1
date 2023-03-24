@@ -16,13 +16,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/faq" element={<FAQ/>} />
+
         </Routes>
       </Suspense>
     </Router>

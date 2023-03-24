@@ -33,6 +33,15 @@ body {
   height: 180px;
 }
 
+/* HOMEPAGE */
+#homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
 /* PAGE FORMAT */
 
 .contentTitle {
@@ -70,6 +79,8 @@ body {
   font-family: 'Alike', serif;
 
 }
+
+
 
 
 /* CONTACT */
