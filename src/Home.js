@@ -1,4 +1,6 @@
 import React from 'react'
+import Navbar from './Navigation/Navbar'
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -30,12 +32,20 @@ export default function Home() {
     //       <h1>69 Fashion Inc.</h1>
     //     </div>
     //   </div>
-
+    <div>
       <div id="homepage" style={{position:'relative'}}>
-          <img src='69Logo.png' alt="backgroundpic" style={{display:'flex'}}></img>
-          <h1 style={{position:'absolute', bottom: '5%', fontSize: 'medium', }}>Step into the spotlight with our dazzling selection of dresses!</h1>
+          <img src='69LogoTransparent.png' alt="backgroundpic" style={{display:'flex', padding:'2rem'}}></img>
+          <h1 id='motto' style={{paddingBottom:'2rem', fontSize: 'medium'}}>Step into the spotlight with our dazzling selection of dresses!</h1>
       </div>
-     
-    // </div>
+      <div style={{display:"flex", justifyContent:"space-evenly", backgroundColor: "#2B2D42"}}>        
+        {/* <Link to="/" className="homeNavbarTabs" >Home</Link> */}
+        <Link to="/about" className="homeNavbarTabs">About</Link>
+        <Link to="/faq" className="homeNavbarTabs">FAQ</Link>
+        <Link to="/contact" className="homeNavbarTabs">Contact</Link>  
+
+      </div>
+  
+     </div>
+
   )
 }

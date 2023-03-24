@@ -1,12 +1,18 @@
 import React from "react"
 import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import { Marker, Popup } from "react-leaflet"
+import Navbar from "./Navigation/Navbar"
 
 
 export default function Contact() {
 
   return (
+    <div>
+            <Navbar />
+
+
     <div className="font-link" style={{marginTop:'2rem', height:"100%"}}>
+
       <h1 className="contentTitle">Contact Us</h1>
       <div style={{textAlign:'center', margin:'3rem'}}>
         {/* Add a link to a email form */}
@@ -48,6 +54,7 @@ export default function Contact() {
         </MapContainer>
       </div>
 
+    </div>
     </div>
     
     

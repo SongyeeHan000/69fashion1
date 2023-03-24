@@ -1,11 +1,17 @@
 import React from 'react'
+import { Nav } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion'
 import { HashLink } from 'react-router-hash-link';
+import Navbar from './Navigation/Navbar';
 
 // use scrollspy to get one question to the dropdown questionbox
 export default function FAQ() {
 
   return (
+
+    <div>
+    <Navbar/>
+
     <Accordion>
       <h1 className='contentTitle'>FAQ</h1>
       {/* <ul>
@@ -43,31 +49,31 @@ export default function FAQ() {
           We sell dresses for special occasions for Quinceanera, Prom, Sweet 16, Weddings, and Cocktails. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="7">
+      <Accordion.Item eventKey="4">
         <Accordion.Header>Can I rent a dress?</Accordion.Header>
         <Accordion.Body>
           We do not rent dresses to customers. Customers can only buy dresses from our store.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="4">
+      <Accordion.Item eventKey="5">
         <Accordion.Header>Do you sell/rent tuxedo?</Accordion.Header>
         <Accordion.Body>
           Sorry for the inconvenience, but we do not sell or rent tuxedo. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="5">
+      <Accordion.Item eventKey="6">
         <Accordion.Header>What is your size range?</Accordion.Header>
         <Accordion.Body>
           We have sizes from XS to 3XL. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="6">
+      <Accordion.Item eventKey="7">
         <Accordion.Header>Do you have Alterations & Tailoring Services?</Accordion.Header>
         <Accordion.Body>
-          No, we do not alter dresses. However, we will find the best fitting dress for you!
+          No, we do not alter dresses. 
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="7">
+      <Accordion.Item eventKey="8">
         <Accordion.Header>If 6&9 does not have my size, can I make a "special" order?</Accordion.Header>
         <Accordion.Body>
           No,we cannot make "special" orders. We only sell dresses that are available at the store.
@@ -76,14 +82,14 @@ export default function FAQ() {
   
 
       <h1 id='storeInfo' className='accordionTitle'>Store Information</h1>
-      <Accordion.Item eventKey="8">
+      <Accordion.Item eventKey="9">
         <Accordion.Header>Where is the store located?</Accordion.Header>
         <Accordion.Body>
           Our store is located in Bronx, NY. Customers from Manhattan can take the uptown 4 or D train to "Fordham Road" to reach our store! 
         </Accordion.Body>
       </Accordion.Item>
 
-      <Accordion.Item eventKey="9">
+      <Accordion.Item eventKey="10">
         <Accordion.Header>Are you by appointment only?</Accordion.Header>
         <Accordion.Body>
          No, we are not. Feel free to come in anytime between 12pm - 6:30pm everyday!
@@ -93,6 +99,10 @@ export default function FAQ() {
        </div>
 
     </Accordion>
+    <p style={{textAlign:'center', paddingBottom:'5rem'}}>If you have any other question, please call us at 718-220-6969.</p>
+    </div>
+
+
   
     
   )

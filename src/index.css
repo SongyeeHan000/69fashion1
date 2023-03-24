@@ -41,7 +41,15 @@ body {
   flex-direction: column;
 
 }
-
+.homeNavbarTabs {
+  font-family: 'Alike', serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px
+}
+#motto {
+  font-family: 'Alike', serif;
+}
 /* PAGE FORMAT */
 
 .contentTitle {
